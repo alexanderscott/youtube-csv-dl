@@ -1,0 +1,21 @@
+{
+  "name": "youtube-csv-dl",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Download audio files from a csv list",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderscott/youtube-csv-dl.git"
+  },
+  "author": "Alex Ehrnschwender (http://alexehrnschwender.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "async": "^2.3.0",
+    "csv-parse": "^1.2.0",
+    "request": "^2.81.0",
+    "underscore": "^1.8.3"
+  }
+}
