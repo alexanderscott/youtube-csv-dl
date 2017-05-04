@@ -2,14 +2,27 @@ song-downloader
 ============
 search youtube and download audio files from a csv list
 
-uses [youtube-dl](https://github.com/rg3/youtube-dl) python package behind the scenes
+relies on [youtube-dl](https://github.com/rg3/youtube-dl) python package behind the scenes
 
+Usage
+-------
+get a youtube data API key and place inside of `~/.config/youtube-csv-dl/config.json`:
+
+```json
+{  "YOUTUBE_API_KEY": "xxxxx" }
 ```
+
+run the downloader with:
+
+```shell
 node song-downloader.js [songlist.csv]
 ```
 
-csv format:
+csv file input format:
+
+```
 song name; artist name (optional); album name (optional);
+```
 
 
 License
